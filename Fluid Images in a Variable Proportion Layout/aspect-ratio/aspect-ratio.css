@@ -1,0 +1,15 @@
+.el {
+  aspect-ratio: 16 / 9;
+}
+
+.image {
+  /* ... */
+  height: 184px;
+  width: 318px;
+}
+.image {
+  /* ... */
+  width: 318px; /*  Base width */
+  height: unset; /* Resets the height that was set outside the media query */
+  aspect-ratio: 159 / 92; /* Amounts close to a 184px height */
+}
